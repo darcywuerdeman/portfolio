@@ -1,0 +1,236 @@
+/*****Base Styles*****/
+
+body{
+  font-family: "Raleway" , sans-serif;
+  font-family: "Quicksand" , sans-serif;
+  color: #303030;
+}
+
+/******Grid******/
+
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+  overflow:auto;
+}
+
+.half-width{
+  width: 600px;
+  float: left;
+  overflow: auto;
+}
+
+.third-width{
+  width: 400px;
+  float: left;
+  overflow: auto;
+}
+
+/******Header******/
+
+header{
+  height:50px;
+  padding-bottom: 40px;
+}
+
+header h1{
+  font-family: "Quicksand" , sans-serif;
+  color: #d1591a;
+}
+
+header nav{
+  float:right;
+  padding: 20px;
+}
+
+header nav li{
+  display:inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #303030;
+    padding-left:20px;
+  }
+
+/******About******/
+
+#about {
+  background: url('../img/about-background.png') no-repeat 0px 0px white;
+  background-size: cover;
+  height: 500px;
+  padding:20px;
+}
+
+#about p{
+  color:white;
+  font-family: "Raleway" , sans-serif;
+  font-size: 50px;
+  margin-left: 30px;
+  margin-right: 20px;
+  position: absolute;
+  text-align:center;
+  top:40%
+}
+
+/*******Portfolio******/
+
+#portfolio h2{
+  color: #d1591a;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+}
+
+#portfolio #casablanca{
+  display:block;
+  height:400px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+}
+
+#portfolio #casablanca-title{
+  color: #d1591a;
+  font-size: 25px;
+}
+
+#portfolio .casablanca{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 130px;
+  padding-right: 125px;
+}
+
+#portfolio #southern{
+  display:block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 30px;
+  width: 400px;
+}
+
+#portfolio #southern-title{
+  color: #d1591a;
+  font-size: 25px;
+}
+
+#portfolio .southern{
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  padding-right: 125px;
+}
+
+#portfolio #cat {
+  display:block;
+  height:300px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+}
+
+#portfolio #cat-title {
+  color: #d1591a;
+  font-size: 25px;
+}
+
+#portfolio .cat{
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
+  padding-right: 125px;
+  padding-top: 100px;
+}
+
+#portfolio #thunderbird {
+  display:block;
+  height:300px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+}
+
+#portfolio #thunderbird-title {
+  color: #d1591a;
+  font-size: 25px;
+}
+
+#portfolio .thunderbird {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
+  padding-right: 125px;
+  padding-top: 90px;
+}
+
+/******Skills******/
+
+#skills {
+  background: #f48347;
+  color: white;
+  text-align: center;
+}
+
+#skills .full-width{
+  padding: 20px;
+}
+
+#skills img{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width:auto;
+}
+
+#skills h2{
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+}
+
+#skills h3{
+  font-size: 20px;
+}
+
+#skills p{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+/******Contact******/
+
+#contact h2{
+  color: #d1591a;
+  font-size: 35px;
+  text-align: center;
+  padding: 20px;
+}
+
+#contact p{
+  font-size: 20px;
+  text-align:center;
+  padding-bottom: 20px;
+}
+
+#contact p span{
+  color: #d1591a;
+  font-weight: bold;
+}
+
+/******ABout Page******/
+
+#about-page p{
+  font-size: 20px;
+  line-height: 35px;
+  text-align:center;
+}
